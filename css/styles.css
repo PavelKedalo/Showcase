@@ -1,0 +1,328 @@
+html {
+
+    background: #d7e1d7;
+    border: solid 1px #323232;
+}
+
+body {
+
+    margin-top: 0;
+}
+
+a {
+
+    text-decoration: none;
+    color: #000000;
+}
+
+h2 {
+
+    margin-bottom: -15px;
+    margin-top: 0;
+}
+
+#left {
+
+    min-width: 150px;
+    width: 15%;
+    height: 600px;
+    float: left;
+    border-right: solid 1px #323232;
+}
+
+#left .leftCenter {
+
+    margin-top: 100px;
+    width: 250px;
+    height: 50px;
+    float: left;
+}
+
+.leftTop h3, .leftCenter h3 {
+
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.leftTop h3:before, .leftCenter h3:before {
+
+    content: url('/images/folder.png');
+    margin-right: 5px;
+}
+
+#left .category {
+
+    margin-left: 45px;
+    font-size: 16px;
+}
+
+#left .category:before, #left .category:before {
+
+    content: url('/images/file.png');
+    margin-right: 5px;
+}
+
+#center {
+
+    min-width: 740px;
+    width: 63%;
+    height: 600px;
+    float: left;
+}
+
+#center .header {
+
+    margin-top: 5px;
+    height: 40px;
+}
+
+.buttonBasketAction {
+
+    width: 250px;
+    margin-left: 20px;
+    float: left;
+}
+
+.buttonBasketAction a {
+
+    padding: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #757575;
+    border-radius: 4px;
+    box-shadow: #000000 0 1px 0;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.content {
+
+    margin-top: 10px;
+    width: 740px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+
+.tape {
+
+    margin-top: 20px;
+    height: 140px;
+}
+
+.elementInMain {
+
+    width: 100px;
+    height: 80px;
+    border: solid 1px #b5b5b5;
+    float: left;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.elementInMain img {
+
+    height: 65px;
+    width: 60px;
+    float: left;
+}
+.elementInMain:hover {
+
+    box-shadow:0 0 10px #2e8bef;
+}
+
+.element {
+
+    width: 120px;
+    height: 100px;
+    border: solid 1px #b5b5b5;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.element:hover {
+
+    box-shadow:0 0 10px #2e8bef;
+}
+
+.element img {
+
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+
+.addToCart {
+
+    margin-left: 2px;
+    margin-top: 50px;
+    height: 30px;
+    width: 36px;
+    float: right;
+    background: url('/images/basketAdd.png') #d7e1d7;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.delThisElement {
+
+    height: 30px;
+    width: 36px;
+    float: right;
+    background: url('/images/basketDel.png') #d7e1d7;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.element .elementText {
+
+    margin-top: 2px;
+    font-size: 10px;
+    height: 20px;
+}
+
+.elementBasket {
+
+    width: 700px;
+    height: 110px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: 1px solid #b5b5b5;
+}
+
+.elementBasket img {
+
+    height: 110px;
+    width: 100px;
+    float: left;
+}
+
+.elementBasket:hover {
+
+    box-shadow:0 0 10px #2e8bef;
+}
+
+.elementBasket .elementTextBasket {
+
+    font-size: 16px;
+    margin-left: 10px;
+    width: 590px;
+    float: left;
+}
+
+.elementBasket .shortDescription {
+
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 590px;
+    float: left;
+}
+
+#right {
+
+    min-width: 250px;
+    width: 20%;
+    height: 600px;
+    float: right;
+    border-left: solid 1px #323232;
+}
+
+#footer {
+
+    margin-left:auto;
+    margin-right:auto;
+    height: 20px;
+}
+
+#footer .pages {
+
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer .pages .blockFirst {
+
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: solid 1px #323232;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#footer .pages .blockPage  a {
+
+    margin-left:2px;
+}
+
+#footer .pages .blockLast {
+
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: solid 1px #323232;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#footer .pages .blockPage {
+
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: solid 1px #323232;
+}
+
+#footer .pages .blockPageActive {
+
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: solid 1px #323232;
+    background-color: #466a45;
+    opacity: 0.9
+}
+
+.pageNumber {
+
+    float: left;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.pageNumber:hover {
+
+    font-weight:bold;
+    font-size: 20px;
+    color: #5f0000;
+}
+
+.allElementData {
+
+    font-size: 10px;
+    overflow: auto;
+    height: 600px;
+}
+
+.checkBox {
+
+    float: right;
+    width: 350px;
+}
+
+.checkBox select {
+
+    margin-left: 20px;
+}
